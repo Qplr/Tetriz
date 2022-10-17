@@ -1,0 +1,1110 @@
+Starting with  500 players
+Starting with  500 players
+Starting with  500 players
+Starting with  10 players
+generation 1 top fitness 260
+21.992 1 8.9977 3.93889 17.2265 9.37047 30.3217 673.688 6.67106 
+Best fitness 260
+generation 2 top fitness 260
+21.992 1 8.9977 3.93889 17.2265 9.37047 30.3217 673.688 6.67106 
+Best fitness 260
+Starting with  500 players
+Starting with  500 players
+Starting with  20 players
+generation 1 top fitness 106
+31.115 4.639 29.658 22.704 9.93 13.977 2.306 31.673 22.386 
+Best fitness 106
+generation 2 top fitness 125
+22.9116 2.78802 21.7997 16.5135 6.80113 9.87789 1 23.3464 16.2865 
+Best fitness 125
+Starting with  20 players
+Starting with  20 players
+Starting with  20 players
+Starting with  20 players
+Starting with  20 players
+Starting with  20 players
+Starting with  20 players
+Starting with  20 players
+Starting with  20 players
+Starting with  20 players
+generation 1 top fitness 828
+33.546 2.452 14.312 6.805 26.472 14.838 45.851 998.209 10.862 
+Best fitness 828
+generation 2 top fitness 828
+33.546 2.452 14.312 6.805 26.472 14.838 45.851 998.209 10.862 
+Best fitness 828
+Starting with  20 players
+generation 1 top fitness 281
+33.546 14.343 14.312 6.805 26.472 14.838 45.851 998.209 13.458 
+Best fitness 281
+generation 2 top fitness 873
+3.093 2.452 22.7078 1.587 48.2035 9.503 45.851 998.209 13.458 
+Best fitness 873
+generation 3 top fitness 1402
+91.5184 2.52129 30.523 1 79.367 23.5926 45.851 998.209 20.9585 
+Best fitness 1402
+Starting with  20 players
+generation 1 top fitness 281
+33.546 14.343 14.312 6.805 26.472 14.838 45.851 998.209 13.458 
+Best fitness 281
+generation 2 top fitness 688
+22.8685 2.452 30.523 1.08187 19.9835 9.503 31.2569 998.209 7.4047 
+Best fitness 688
+generation 3 top fitness 968
+22.8685 3.95878 49.2798 1.587 25.4896 16.3311 74.027 998.209 13.458 
+Best fitness 968
+Starting with  500 players
+Starting with  10 players
+generation 1 top fitness 623
+33.546 2.452 14.312 6.805 26.472 14.838 45.851 998.209 10.862 
+Best fitness 623
+generation 2 top fitness 623
+33.546 2.452 14.312 6.805 26.472 14.838 45.851 998.209 10.862 
+Best fitness 623
+Starting with  100 players
+generation 1 top fitness 545
+20.259 2.742 8.61 4.472 7.128 18.434 9.781 26.504 3.503 
+Best fitness 545
+generation 2 top fitness 1129
+3.32446 88.6765 144.206 27.1235 1.59392 8.69216 1 3.94146 73.9412 
+Best fitness 1129
+Starting with  100 players
+generation 1 top fitness 545
+17.827 2.742 26.431 7.152 7.128 18.434 5.841 20.718 3.503 
+Best fitness 545
+generation 2 top fitness 2713
+4.6271 1 15.7116 1 8.69419 3.49173 20.528 2.9593 10.7555 
+Best fitness 2713
+Starting with  20 players
+Starting with  20 players
+generation 1 top fitness 1103
+7.82463 2.09535 10.1365 1.16395 1 2.995 9.30346 4.827 5.436 
+Best fitness 1103
+generation 2 top fitness 1103
+7.82463 2.09535 10.1365 1.16395 0 1.78387 10.9687 2.34016 5.436 
+Best fitness 1103
+Starting with  10 players
+generation 1 top fitness 391
+4.77969 4.47413 2.7374 1 1.60694 3.26328 25.3183 4.02385 7.92142 
+Best fitness 391
+generation 2 top fitness 1076
+4.77969 4.47413 2.7374 1 1.60694 3.26328 25.3183 4.02385 7.92142 
+Best fitness 1076
+generation 3 top fitness 1076
+4.77969 4.47413 2.7374 1 1.60694 3.26328 25.3183 4.02385 7.92142 
+Best fitness 1076
+Starting with  100 players
+Starting with  100 players
+Starting with  10 players
+generation 1 top fitness 391
+4.77969 4.47413 2.7374 1 1.60694 3.26328 25.3183 4.02385 7.92142 
+Best fitness 391
+generation 2 top fitness 1076
+4.77969 4.47413 2.7374 1 1.60694 3.26328 25.3183 4.02385 7.92142 
+Best fitness 1076
+generation 3 top fitness 651
+4.77969 4.47413 2.7374 1 1.60694 3.26328 25.3183 4.02385 7.92142 
+Best fitness 651
+Starting with  10 players
+generation 1 top fitness 128
+33.546 2.452 14.312 6.805 26.472 14.838 45.851 998.209 10.862 
+Best fitness 128
+generation 2 top fitness 491
+22.3353 1 9.1437 3.98723 17.4752 9.50704 44.8768 683.925 6.77975 
+Best fitness 491
+generation 3 top fitness 408
+1000 1 741.417 274.238 1000 773.805 43.8851 1000 526.666 
+Best fitness 408
+generation 4 top fitness 111
+1000 1 1000 1000 1000 1000 42.9022 1000 1000 
+Best fitness 111
+Starting with  10 players
+generation 1 top fitness 788
+210.737 94.4556 24.5329 0.022704 0.918427 79.9421 16.4233 121.358 127.898 
+Best fitness 788
+generation 2 top fitness 195
+210.737 94.4556 24.5329 0.022704 0.918427 79.9421 16.4233 121.358 127.898 
+Best fitness 195
+generation 3 top fitness 202
+999.024 999.023 999.002 0.029743 39.4786 999.021 15.4448 999.002 999 
+Best fitness 202
+generation 4 top fitness 379
+999.005 999.005 999.029 0.014643 999.01 999.012 14.4593 999.006 999.017 
+Best fitness 379
+generation 5 top fitness 359
+999.011 999.001 999.011 0.01009 999.031 999.015 13.4912 999.021 999.024 
+Best fitness 359
+generation 6 top fitness 608
+999.022 999.019 999.029 0.026681 999.003 999.03 12.4999 999.021 999.01 
+Best fitness 608
+generation 7 top fitness 715
+999.02 999.01 999.024 0.021969 999.019 999.01 11.5317 999.007 999.004 
+Best fitness 715
+generation 8 top fitness 305
+999.008 999.012 999.009 0.022127 999.03 999.002 10.5505 999.002 999.021 
+Best fitness 305
+Starting with  10 players
+generation 1 top fitness 128
+33.546 2.452 14.312 6.805 26.472 14.838 45.851 998.209 10.862 
+Best fitness 128
+generation 2 top fitness 26
+33.546 2.452 14.312 6.805 26.472 14.838 45.851 998.209 10.862 
+Best fitness 26
+generation 3 top fitness 77
+33.546 2.452 14.312 6.805 26.472 14.838 45.851 998.209 10.862 
+Best fitness 77
+generation 4 top fitness 479
+33.546 2.452 14.312 6.805 26.472 14.838 45.851 998.209 10.862 
+Best fitness 479
+generation 5 top fitness 401
+33.546 2.452 14.312 6.805 26.472 14.838 45.851 998.209 10.862 
+Best fitness 401
+generation 6 top fitness 46
+33.546 2.452 14.312 6.805 26.472 14.838 45.851 998.209 10.862 
+Best fitness 46
+generation 7 top fitness 33
+33.546 2.452 14.312 6.805 26.472 14.838 45.851 998.209 10.862 
+Best fitness 33
+generation 8 top fitness 60
+33.546 2.452 14.312 6.805 26.472 14.838 45.851 998.209 10.862 
+Best fitness 60
+generation 9 top fitness 115
+33.546 2.452 14.312 6.805 26.472 14.838 45.851 998.209 10.862 
+Best fitness 115
+generation 10 top fitness 26
+33.546 2.452 14.312 6.805 26.472 14.838 45.851 998.209 10.862 
+Best fitness 26
+Starting with  10 players
+generation 1 top fitness 239
+29.1382 8.04976 7.96622 18.2826 21.6544 26.4709 22.8325 14.903 5.74541 
+Best fitness 239
+generation 2 top fitness 300
+28.1383 7.07962 6.98926 17.2915 20.6797 25.4726 21.8394 13.9111 4.76334 
+Best fitness 300
+generation 3 top fitness 638
+27.1563 6.09312 5.99751 16.3119 19.7049 24.4805 20.8552 12.9147 3.78876 
+Best fitness 638
+generation 4 top fitness 583
+26.1704 5.1191 5.026 15.3423 18.7069 23.5038 19.8617 11.9207 2.79142 
+Best fitness 583
+generation 5 top fitness 893
+25.1947 4.12861 4.05529 14.3705 17.7258 22.5117 18.8735 10.9385 1.79859 
+Best fitness 893
+generation 6 top fitness 795
+24.215 3.15307 3.07281 13.3903 16.7515 21.5282 17.8982 9.96122 0.81821 
+Best fitness 795
+Starting with  10 players
+Starting with  10 players
+Starting with  10 players
+Starting with  10 players
+generation 1 top fitness 228
+32.391 14.604 3.902 0.153 0.292 12.382 17.421 18.716 19.718 
+Best fitness 228
+generation 2 top fitness 400
+32.391 14.604 3.902 0.153 0.292 12.382 17.421 18.716 19.718 
+Best fitness 400
+generation 3 top fitness 469
+32.391 14.604 3.902 0.153 0.292 12.382 17.421 18.716 19.718 
+Best fitness 469
+generation 4 top fitness 244
+32.575 1.47141 13.317 5.80554 25.4895 13.868 44.8724 997.216 9.87529 
+Best fitness 244
+generation 5 top fitness 720
+32.391 14.604 3.902 0.153 0.292 12.382 17.421 18.716 19.718 
+Best fitness 720
+generation 6 top fitness 410
+31.5784 0.490508 12.3479 4.81386 24.4999 12.8726 43.8777 996.234 8.90111 
+Best fitness 410
+generation 7 top fitness 284
+31.5931 0.473581 12.3424 4.82734 24.4916 12.8946 43.9003 996.219 8.88486 
+Best fitness 284
+generation 8 top fitness 620
+31.6008 0.471441 12.3239 4.81047 24.5129 12.8718 43.8875 996.242 8.87757 
+Best fitness 620
+generation 9 top fitness 286
+31.6008 0.471441 12.3239 4.81047 24.5129 12.8718 43.8875 996.242 8.87757 
+Best fitness 286
+Starting with  10 players
+generation 1 top fitness 489
+32.391 14.604 3.902 0.153 0.292 12.382 17.421 18.716 19.718 
+Best fitness 489
+generation 2 top fitness 309
+17.9695 16.7816 9.87987 2.97616 5.42068 11.9836 24.3232 14.969 30.483 
+Best fitness 309
+generation 3 top fitness 432
+32.391 14.604 3.902 0.153 0.292 12.382 17.421 18.716 19.718 
+Best fitness 432
+generation 4 top fitness 742
+32.561 1.46312 13.327 5.8259 25.4903 13.8613 44.8537 997.217 9.8634 
+Best fitness 742
+generation 5 top fitness 667
+31.5826 0.484152 12.3329 4.82801 24.5071 12.8799 43.8741 996.22 8.88062 
+Best fitness 667
+generation 6 top fitness 951
+31.5689 0.471205 12.3467 4.83297 24.5056 12.8792 43.8853 996.243 8.88312 
+Best fitness 951
+generation 7 top fitness 639
+31.5689 0.471205 12.3467 4.83297 24.5056 12.8792 43.8853 996.243 8.88312 
+Best fitness 639
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  100 players
+Starting with  10 players
+generation 1 top fitness 40
+18.9755 17.7625 10.8676 3.97004 6.3796 12.9553 25.3183 15.9748 31.4484 
+Best fitness 40
+generation 2 top fitness 64
+18.9755 17.7625 10.8676 3.97004 6.3796 12.9553 25.3183 15.9748 31.4484 
+Best fitness 64
+generation 3 top fitness 52
+17.9815 16.7778 9.88618 2.99143 5.41127 11.9771 24.3215 14.9871 30.4759 
+Best fitness 52
+generation 4 top fitness 64
+17.0141 15.7744 8.8855 2.02315 4.41037 10.9927 23.3425 13.986 29.4914 
+Best fitness 64
+generation 5 top fitness 20
+16.0453 14.7792 7.90129 1.03161 3.42738 10.0136 22.3445 13.0024 28.5058 
+Best fitness 20
+Starting with  10 players
+generation 1 top fitness 31.0303
+31.5689 0.471205 12.3467 4.83297 24.5056 12.8792 43.8853 996.243 8.88312 
+Best fitness 31.0303
+generation 2 top fitness 144.602
+30.5797 0 11.349 3.84795 23.5219 11.8818 42.9111 100 7.9046 
+Best fitness 144.602
+Starting with  10 players
+Starting with  10 players
+Starting with  10 players
+Starting with  10 players
+generation 1 top fitness 2.71698
+29.1382 8.04976 7.96622 18.2826 21.6544 26.4709 22.8325 14.903 5.74541 
+Best fitness 2.71698
+Starting with  10 players
+generation 1 top fitness 2.71698
+29.1382 8.04976 7.96622 18.2826 21.6544 26.4709 22.8325 14.903 5.74541 
+Best fitness 2.71698
+Starting with  10 players
+Starting with  10 players
+generation 1 top fitness 56
+2.04281 0 0 0.944988 1.27122 1.76955 1.40801 0.60203 0 
+Best fitness 56
+generation 2 top fitness 96
+2.04281 0 0 0.944988 1.27122 1.76955 1.40801 0.60203 0 
+Best fitness 96
+generation 3 top fitness 16
+2.04281 0 0 0.944988 1.27122 1.76955 1.40801 0.60203 0 
+Best fitness 16
+Starting with  10 players
+generation 1 top fitness 100
+31.5689 0.471205 12.3467 4.83297 24.5056 12.8792 43.8853 996.243 8.88312 
+Best fitness 100
+generation 2 top fitness 336
+30.5818 0 11.367 3.84513 23.507 11.8843 42.8918 100 7.88747 
+Best fitness 336
+generation 3 top fitness 312
+29.5955 0 10.3898 2.87522 22.5359 10.8948 41.919 99.0298 6.88988 
+Best fitness 312
+generation 4 top fitness 224
+28.6165 0 9.39708 1.87725 21.5467 9.89912 40.9364 98.0476 5.9063 
+Best fitness 224
+Starting with  10 players
+generation 1 top fitness 113.838
+31.5689 0.471205 12.3467 4.83297 24.5056 12.8792 43.8853 996.243 8.88312 
+Best fitness 113.838
+Starting with  10 players
+generation 1 top fitness 104
+31.5689 0.471205 12.3467 4.83297 24.5056 12.8792 43.8853 996.243 8.88312 
+Best fitness 104
+generation 2 top fitness 164
+31.5689 0.471205 12.3467 4.83297 24.5056 12.8792 43.8853 996.243 8.88312 
+Best fitness 164
+generation 3 top fitness 256
+31.5689 0.471205 11.3748 4.83297 24.5056 12.8792 43.8853 996.243 8.88312 
+Best fitness 256
+generation 4 top fitness 244
+31.5689 0.471205 11.3748 4.83297 24.5056 12.8792 43.8853 996.243 8.88312 
+Best fitness 244
+generation 5 top fitness 640
+31.5689 0.471205 11.3748 4.83297 24.5056 12.8792 43.8853 996.243 8.88312 
+Best fitness 640
+Starting with  10 players
+generation 1 top fitness 64
+3.2391 1.4604 0.3902 0.0153 0.0292 1.2382 1.7421 1.8716 1.9718 
+Best fitness 64
+generation 2 top fitness 76
+3.2391 1.4604 0.3902 0.0153 0.0292 1.2382 0.9104 1.8716 1.9718 
+Best fitness 76
+Starting with  10 players
+generation 1 top fitness 64
+3.2391 1.4604 0.3902 0.0153 0.0292 1.2382 1.7421 1.8716 1.9718 
+Best fitness 64
+generation 2 top fitness 140
+3.2391 1.4604 0.3902 0.0153 0 1.2382 1.7421 1.8716 1.9718 
+Best fitness 140
+Starting with  100 players
+generation 1 top fitness 224
+0.8723 0.9741 2.7529 0.0778 1.2316 0.3035 2.219 0.1842 0.0288 
+Best fitness 224
+generation 2 top fitness 836
+2.1548 0.6483 2.7595 0.4041 0.3602 2.435 1.0291 3.0836 0.9374 
+Best fitness 836
+generation 3 top fitness 536
+2.1548 0.6483 2.7595 0.4041 0.3602 2.435 1.0291 3.0836 0.9374 
+Best fitness 536
+generation 4 top fitness 412
+1.9829 0.6483 2.7595 0.4041 0.3602 2.435 1.0291 3.0836 0.9374 
+Best fitness 412
+Starting with  100 players
+generation 1 top fitness 224
+0.8723 0.9741 2.7529 0.0778 1.2316 0.3035 2.219 0.1842 0.0288 
+Best fitness 224
+generation 2 top fitness 444
+0.7619 1.6811 0.7591 0.6704 3.1818 0.9232 0.075 2.5205 0.4975 
+Best fitness 444
+generation 3 top fitness 376
+1.1701 3.1316 2.0671 0.5786 1.2263 0.4313 2.4355 3.1185 2.0053 
+Best fitness 376
+Starting with  10 players
+generation 1 top fitness 136
+2.1069 1.8756 1.184 0.4966 0.7376 1.3931 2.6308 1.6944 3.2439 
+player 0fitness 136
+player 1fitness 136
+player 2fitness 136
+player 3fitness 136
+player 4fitness 136
+player 5fitness 136
+player 6fitness 136
+player 7fitness 136
+player 8fitness 136
+player 9fitness 136
+generation 2 top fitness 136
+2.1069 1.8756 1.184 0.4966 0.7376 1.3931 2.6308 1.6944 3.2439 
+player 0fitness 136
+player 1fitness 136
+player 2fitness 136
+player 3fitness 136
+player 4fitness 136
+player 5fitness 136
+player 6fitness 136
+player 7fitness 136
+player 8fitness 136
+player 9fitness 136
+Starting with  10 players
+generation 1 top fitness 136
+2.1069 1.8756 1.184 0.4966 0.7376 1.3931 2.6308 1.6944 3.2439 
+player 0fitness 136
+player 1fitness 136
+player 2fitness 136
+player 3fitness 136
+player 4fitness 136
+player 5fitness 136
+player 6fitness 136
+player 7fitness 136
+player 8fitness 136
+player 9fitness 136
+generation 2 top fitness 136
+2.1069 1.8756 1.184 0.4966 0.7376 1.3931 2.6308 1.6944 3.2439 
+player 0fitness 136
+player 1fitness 136
+player 2fitness 136
+player 3fitness 136
+player 4fitness 136
+player 5fitness 136
+player 6fitness 136
+player 7fitness 136
+player 8fitness 136
+player 9fitness 136
+Starting with  50 players
+generation 1 top fitness 128
+0.4031 1.2052 2.735 0.115 1.6941 2.1724 1.3966 0.343 3.1107 
+player 0fitness 128
+player 1fitness 124
+player 2fitness 84
+player 3fitness 60
+player 4fitness 60
+player 5fitness 128
+player 6fitness 124
+player 7fitness 84
+player 8fitness 60
+player 9fitness 60
+player 10fitness 128
+player 11fitness 124
+player 12fitness 84
+player 13fitness 60
+player 14fitness 60
+player 15fitness 128
+player 16fitness 124
+player 17fitness 84
+player 18fitness 60
+player 19fitness 60
+player 20fitness 128
+player 21fitness 124
+player 22fitness 84
+player 23fitness 60
+player 24fitness 60
+player 25fitness 128
+player 26fitness 124
+player 27fitness 84
+player 28fitness 60
+player 29fitness 60
+player 30fitness 128
+player 31fitness 124
+player 32fitness 84
+player 33fitness 60
+player 34fitness 60
+player 35fitness 128
+player 36fitness 124
+player 37fitness 84
+player 38fitness 60
+player 39fitness 60
+player 40fitness 128
+player 41fitness 124
+player 42fitness 84
+player 43fitness 60
+player 44fitness 60
+player 45fitness 128
+player 46fitness 124
+player 47fitness 84
+player 48fitness 60
+player 49fitness 60
+generation 2 top fitness 456
+3.2391 1.4604 0 0.0153 0.0292 1.2382 1.7421 1.8716 1.9718 
+player 0fitness 456
+player 1fitness 220
+player 2fitness 196
+player 3fitness 188
+player 4fitness 188
+player 5fitness 456
+player 6fitness 220
+player 7fitness 196
+player 8fitness 188
+player 9fitness 188
+player 10fitness 456
+player 11fitness 220
+player 12fitness 196
+player 13fitness 188
+player 14fitness 188
+player 15fitness 456
+player 16fitness 220
+player 17fitness 196
+player 18fitness 188
+player 19fitness 188
+player 20fitness 456
+player 21fitness 220
+player 22fitness 196
+player 23fitness 188
+player 24fitness 188
+player 25fitness 456
+player 26fitness 220
+player 27fitness 196
+player 28fitness 188
+player 29fitness 188
+player 30fitness 456
+player 31fitness 220
+player 32fitness 196
+player 33fitness 188
+player 34fitness 188
+player 35fitness 456
+player 36fitness 220
+player 37fitness 196
+player 38fitness 188
+player 39fitness 188
+player 40fitness 456
+player 41fitness 220
+player 42fitness 196
+player 43fitness 188
+player 44fitness 188
+player 45fitness 456
+player 46fitness 220
+player 47fitness 196
+player 48fitness 188
+player 49fitness 188
+Starting with  10 players
+Starting with  10 players
+generation 1 top fitness 156
+31.5689 0.471205 12.3467 4.83297 24.5056 12.8792 43.8853 996.243 8.88312 
+player 0fitness 156
+player 1fitness 156
+player 2fitness 156
+player 3fitness 156
+player 4fitness 156
+player 5fitness 156
+player 6fitness 156
+player 7fitness 156
+player 8fitness 156
+player 9fitness 156
+generation 2 top fitness 432
+31.5689 0.471205 12.3467 4.83297 24.5056 12.8792 43.8853 996.243 8.88312 
+player 0fitness 432
+player 1fitness 432
+player 2fitness 432
+player 3fitness 432
+player 4fitness 432
+player 5fitness 432
+player 6fitness 432
+player 7fitness 432
+player 8fitness 432
+player 9fitness 432
+Starting with  10 players
+Starting with  50 players
+generation 1 top fitness 176
+31.5689 0.471205 12.3467 4.83297 24.5056 12.8792 43.8853 996.243 8.88312 
+player 0fitness 176
+player 1fitness 140
+player 2fitness 120
+player 3fitness 108
+player 4fitness 104
+player 5fitness 176
+player 6fitness 140
+player 7fitness 120
+player 8fitness 108
+player 9fitness 104
+player 10fitness 176
+player 11fitness 140
+player 12fitness 120
+player 13fitness 108
+player 14fitness 104
+player 15fitness 176
+player 16fitness 140
+player 17fitness 120
+player 18fitness 108
+player 19fitness 104
+player 20fitness 176
+player 21fitness 140
+player 22fitness 120
+player 23fitness 108
+player 24fitness 104
+player 25fitness 176
+player 26fitness 140
+player 27fitness 120
+player 28fitness 108
+player 29fitness 104
+player 30fitness 176
+player 31fitness 140
+player 32fitness 120
+player 33fitness 108
+player 34fitness 104
+player 35fitness 176
+player 36fitness 140
+player 37fitness 120
+player 38fitness 108
+player 39fitness 104
+player 40fitness 176
+player 41fitness 140
+player 42fitness 120
+player 43fitness 108
+player 44fitness 104
+player 45fitness 176
+player 46fitness 140
+player 47fitness 120
+player 48fitness 108
+player 49fitness 104
+Starting with  50 players
+generation 1 top fitness 1.94605e+06
+1.9954 1.8756 1.184 0.4966 0.7376 1.3931 2.6308 1.6944 3.2439 
+player 0fitness 1.94605e+06
+player 1fitness 1.45999e+06
+player 2fitness 1.22522e+06
+player 3fitness 949816
+player 4fitness 912649
+player 5fitness 1.94605e+06
+player 6fitness 1.45999e+06
+player 7fitness 1.22522e+06
+player 8fitness 949816
+player 9fitness 912649
+player 10fitness 1.94605e+06
+player 11fitness 1.45999e+06
+player 12fitness 1.22522e+06
+player 13fitness 949816
+player 14fitness 912649
+player 15fitness 1.94605e+06
+player 16fitness 1.45999e+06
+player 17fitness 1.22522e+06
+player 18fitness 949816
+player 19fitness 912649
+player 20fitness 1.94605e+06
+player 21fitness 1.45999e+06
+player 22fitness 1.22522e+06
+player 23fitness 949816
+player 24fitness 912649
+player 25fitness 1.94605e+06
+player 26fitness 1.45999e+06
+player 27fitness 1.22522e+06
+player 28fitness 949816
+player 29fitness 912649
+player 30fitness 1.94605e+06
+player 31fitness 1.45999e+06
+player 32fitness 1.22522e+06
+player 33fitness 949816
+player 34fitness 912649
+player 35fitness 1.94605e+06
+player 36fitness 1.45999e+06
+player 37fitness 1.22522e+06
+player 38fitness 949816
+player 39fitness 912649
+player 40fitness 1.94605e+06
+player 41fitness 1.45999e+06
+player 42fitness 1.22522e+06
+player 43fitness 949816
+player 44fitness 912649
+player 45fitness 1.94605e+06
+player 46fitness 1.45999e+06
+player 47fitness 1.22522e+06
+player 48fitness 949816
+player 49fitness 912649
+generation 2 top fitness 3.59699e+06
+2.2634 3.9044 0.6643 0.2815 2.3701 3.1962 0.5414 1.8053 2.0337 
+player 0fitness 3.59699e+06
+player 1fitness 3.07167e+06
+player 2fitness 2.34374e+06
+player 3fitness 2.09019e+06
+player 4fitness 1.92822e+06
+player 5fitness 3.59699e+06
+player 6fitness 3.07167e+06
+player 7fitness 2.34374e+06
+player 8fitness 2.09019e+06
+player 9fitness 1.92822e+06
+player 10fitness 3.59699e+06
+player 11fitness 3.07167e+06
+player 12fitness 2.34374e+06
+player 13fitness 2.09019e+06
+player 14fitness 1.92822e+06
+player 15fitness 3.59699e+06
+player 16fitness 3.07167e+06
+player 17fitness 2.34374e+06
+player 18fitness 2.09019e+06
+player 19fitness 1.92822e+06
+player 20fitness 3.59699e+06
+player 21fitness 3.07167e+06
+player 22fitness 2.34374e+06
+player 23fitness 2.09019e+06
+player 24fitness 1.92822e+06
+player 25fitness 3.59699e+06
+player 26fitness 3.07167e+06
+player 27fitness 2.34374e+06
+player 28fitness 2.09019e+06
+player 29fitness 1.92822e+06
+player 30fitness 3.59699e+06
+player 31fitness 3.07167e+06
+player 32fitness 2.34374e+06
+player 33fitness 2.09019e+06
+player 34fitness 1.92822e+06
+player 35fitness 3.59699e+06
+player 36fitness 3.07167e+06
+player 37fitness 2.34374e+06
+player 38fitness 2.09019e+06
+player 39fitness 1.92822e+06
+player 40fitness 3.59699e+06
+player 41fitness 3.07167e+06
+player 42fitness 2.34374e+06
+player 43fitness 2.09019e+06
+player 44fitness 1.92822e+06
+player 45fitness 3.59699e+06
+player 46fitness 3.07167e+06
+player 47fitness 2.34374e+06
+player 48fitness 2.09019e+06
+player 49fitness 1.92822e+06
+generation 3 top fitness 1.89846e+06
+2.9377 1.747 1.5844 0.4447 1.3661 1.5888 2.5843 2.1023 3.0431 
+player 0fitness 1.89846e+06
+player 1fitness 1.78321e+06
+player 2fitness 1.72584e+06
+player 3fitness 1.38171e+06
+player 4fitness 1.35401e+06
+player 5fitness 1.89846e+06
+player 6fitness 1.78321e+06
+player 7fitness 1.72584e+06
+player 8fitness 1.38171e+06
+player 9fitness 1.35401e+06
+player 10fitness 1.89846e+06
+player 11fitness 1.78321e+06
+player 12fitness 1.72584e+06
+player 13fitness 1.38171e+06
+player 14fitness 1.35401e+06
+player 15fitness 1.89846e+06
+player 16fitness 1.78321e+06
+player 17fitness 1.72584e+06
+player 18fitness 1.38171e+06
+player 19fitness 1.35401e+06
+player 20fitness 1.89846e+06
+player 21fitness 1.78321e+06
+player 22fitness 1.72584e+06
+player 23fitness 1.38171e+06
+player 24fitness 1.35401e+06
+player 25fitness 1.89846e+06
+player 26fitness 1.78321e+06
+player 27fitness 1.72584e+06
+player 28fitness 1.38171e+06
+player 29fitness 1.35401e+06
+player 30fitness 1.89846e+06
+player 31fitness 1.78321e+06
+player 32fitness 1.72584e+06
+player 33fitness 1.38171e+06
+player 34fitness 1.35401e+06
+player 35fitness 1.89846e+06
+player 36fitness 1.78321e+06
+player 37fitness 1.72584e+06
+player 38fitness 1.38171e+06
+player 39fitness 1.35401e+06
+player 40fitness 1.89846e+06
+player 41fitness 1.78321e+06
+player 42fitness 1.72584e+06
+player 43fitness 1.38171e+06
+player 44fitness 1.35401e+06
+player 45fitness 1.89846e+06
+player 46fitness 1.78321e+06
+player 47fitness 1.72584e+06
+player 48fitness 1.38171e+06
+player 49fitness 1.35401e+06
+generation 4 top fitness 2.14984e+06
+2.2634 3.9044 0.6643 0.2815 2.3701 3.1962 0.5414 1.8053 2.0337 
+player 0fitness 2.14984e+06
+player 1fitness 2.13504e+06
+player 2fitness 1.62159e+06
+player 3fitness 1.53932e+06
+player 4fitness 1.52221e+06
+player 5fitness 2.14984e+06
+player 6fitness 2.13504e+06
+player 7fitness 1.62159e+06
+player 8fitness 1.53932e+06
+player 9fitness 1.52221e+06
+player 10fitness 2.14984e+06
+player 11fitness 2.13504e+06
+player 12fitness 1.62159e+06
+player 13fitness 1.53932e+06
+player 14fitness 1.52221e+06
+player 15fitness 2.14984e+06
+player 16fitness 2.13504e+06
+player 17fitness 1.62159e+06
+player 18fitness 1.53932e+06
+player 19fitness 1.52221e+06
+player 20fitness 2.14984e+06
+player 21fitness 2.13504e+06
+player 22fitness 1.62159e+06
+player 23fitness 1.53932e+06
+player 24fitness 1.52221e+06
+player 25fitness 2.14984e+06
+player 26fitness 2.13504e+06
+player 27fitness 1.62159e+06
+player 28fitness 1.53932e+06
+player 29fitness 1.52221e+06
+player 30fitness 2.14984e+06
+player 31fitness 2.13504e+06
+player 32fitness 1.62159e+06
+player 33fitness 1.53932e+06
+player 34fitness 1.52221e+06
+player 35fitness 2.14984e+06
+player 36fitness 2.13504e+06
+player 37fitness 1.62159e+06
+player 38fitness 1.53932e+06
+player 39fitness 1.52221e+06
+player 40fitness 2.14984e+06
+player 41fitness 2.13504e+06
+player 42fitness 1.62159e+06
+player 43fitness 1.53932e+06
+player 44fitness 1.52221e+06
+player 45fitness 2.14984e+06
+player 46fitness 2.13504e+06
+player 47fitness 1.62159e+06
+player 48fitness 1.53932e+06
+player 49fitness 1.52221e+06
+generation 5 top fitness 3.5534e+06
+1.6138 3.9435 0.5488 0.3884 2.5064 2.8743 1.183 2.0557 1.9258 
+player 0fitness 3.5534e+06
+player 1fitness 2.31565e+06
+player 2fitness 2.02295e+06
+player 3fitness 2.01124e+06
+player 4fitness 1.99588e+06
+player 5fitness 3.5534e+06
+player 6fitness 2.31565e+06
+player 7fitness 2.02295e+06
+player 8fitness 2.01124e+06
+player 9fitness 1.99588e+06
+player 10fitness 3.5534e+06
+player 11fitness 2.31565e+06
+player 12fitness 2.02295e+06
+player 13fitness 2.01124e+06
+player 14fitness 1.99588e+06
+player 15fitness 3.5534e+06
+player 16fitness 2.31565e+06
+player 17fitness 2.02295e+06
+player 18fitness 2.01124e+06
+player 19fitness 1.99588e+06
+player 20fitness 3.5534e+06
+player 21fitness 2.31565e+06
+player 22fitness 2.02295e+06
+player 23fitness 2.01124e+06
+player 24fitness 1.99588e+06
+player 25fitness 3.5534e+06
+player 26fitness 2.31565e+06
+player 27fitness 2.02295e+06
+player 28fitness 2.01124e+06
+player 29fitness 1.99588e+06
+player 30fitness 3.5534e+06
+player 31fitness 2.31565e+06
+player 32fitness 2.02295e+06
+player 33fitness 2.01124e+06
+player 34fitness 1.99588e+06
+player 35fitness 3.5534e+06
+player 36fitness 2.31565e+06
+player 37fitness 2.02295e+06
+player 38fitness 2.01124e+06
+player 39fitness 1.99588e+06
+player 40fitness 3.5534e+06
+player 41fitness 2.31565e+06
+player 42fitness 2.02295e+06
+player 43fitness 2.01124e+06
+player 44fitness 1.99588e+06
+player 45fitness 3.5534e+06
+player 46fitness 2.31565e+06
+player 47fitness 2.02295e+06
+player 48fitness 2.01124e+06
+player 49fitness 1.99588e+06
+generation 6 top fitness 2.7116e+06
+1.6138 3.9435 0.5488 0.3884 2.5064 2.8743 1.183 2.0557 1.9258 
+player 0fitness 2.7116e+06
+player 1fitness 2.13128e+06
+player 2fitness 1.8119e+06
+player 3fitness 1.60552e+06
+player 4fitness 1.494e+06
+player 5fitness 2.7116e+06
+player 6fitness 2.13128e+06
+player 7fitness 1.8119e+06
+player 8fitness 1.60552e+06
+player 9fitness 1.494e+06
+player 10fitness 2.7116e+06
+player 11fitness 2.13128e+06
+player 12fitness 1.8119e+06
+player 13fitness 1.60552e+06
+player 14fitness 1.494e+06
+player 15fitness 2.7116e+06
+player 16fitness 2.13128e+06
+player 17fitness 1.8119e+06
+player 18fitness 1.60552e+06
+player 19fitness 1.494e+06
+player 20fitness 2.7116e+06
+player 21fitness 2.13128e+06
+player 22fitness 1.8119e+06
+player 23fitness 1.60552e+06
+player 24fitness 1.494e+06
+player 25fitness 2.7116e+06
+player 26fitness 2.13128e+06
+player 27fitness 1.8119e+06
+player 28fitness 1.60552e+06
+player 29fitness 1.494e+06
+player 30fitness 2.7116e+06
+player 31fitness 2.13128e+06
+player 32fitness 1.8119e+06
+player 33fitness 1.60552e+06
+player 34fitness 1.494e+06
+player 35fitness 2.7116e+06
+player 36fitness 2.13128e+06
+player 37fitness 1.8119e+06
+player 38fitness 1.60552e+06
+player 39fitness 1.494e+06
+player 40fitness 2.7116e+06
+player 41fitness 2.13128e+06
+player 42fitness 1.8119e+06
+player 43fitness 1.60552e+06
+player 44fitness 1.494e+06
+player 45fitness 2.7116e+06
+player 46fitness 2.13128e+06
+player 47fitness 1.8119e+06
+player 48fitness 1.60552e+06
+player 49fitness 1.494e+06
+Starting with  50 players
+Starting with  50 players
+generation 1 top fitness 1.11777e+06
+1.1038 2.4587 1.454 0.5147 1.5159 0.7335 2.3972 3.1297 2.277 
+player 0fitness 1.11777e+06
+player 1fitness 1.07888e+06
+player 2fitness 530361
+player 3fitness 402752
+player 4fitness 309221
+player 5fitness 1.11777e+06
+player 6fitness 1.07888e+06
+player 7fitness 530361
+player 8fitness 402752
+player 9fitness 309221
+player 10fitness 1.11777e+06
+player 11fitness 1.07888e+06
+player 12fitness 530361
+player 13fitness 402752
+player 14fitness 309221
+player 15fitness 1.11777e+06
+player 16fitness 1.07888e+06
+player 17fitness 530361
+player 18fitness 402752
+player 19fitness 309221
+player 20fitness 1.11777e+06
+player 21fitness 1.07888e+06
+player 22fitness 530361
+player 23fitness 402752
+player 24fitness 309221
+player 25fitness 1.11777e+06
+player 26fitness 1.07888e+06
+player 27fitness 530361
+player 28fitness 402752
+player 29fitness 309221
+player 30fitness 1.11777e+06
+player 31fitness 1.07888e+06
+player 32fitness 530361
+player 33fitness 402752
+player 34fitness 309221
+player 35fitness 1.11777e+06
+player 36fitness 1.07888e+06
+player 37fitness 530361
+player 38fitness 402752
+player 39fitness 309221
+player 40fitness 1.11777e+06
+player 41fitness 1.07888e+06
+player 42fitness 530361
+player 43fitness 402752
+player 44fitness 309221
+player 45fitness 1.11777e+06
+player 46fitness 1.07888e+06
+player 47fitness 530361
+player 48fitness 402752
+player 49fitness 309221
+Starting with  50 players
+generation 1 top fitness 492179
+2.1548 0.6483 2.7595 0.4041 0.3602 2.435 1.0291 3.0836 0.9374 
+player 0fitness 492179
+player 1fitness 331890
+player 2fitness 309777
+player 3fitness 214447
+player 4fitness 183360
+player 5fitness 492179
+player 6fitness 331890
+player 7fitness 309777
+player 8fitness 214447
+player 9fitness 183360
+player 10fitness 492179
+player 11fitness 331890
+player 12fitness 309777
+player 13fitness 214447
+player 14fitness 183360
+player 15fitness 492179
+player 16fitness 331890
+player 17fitness 309777
+player 18fitness 214447
+player 19fitness 183360
+player 20fitness 492179
+player 21fitness 331890
+player 22fitness 309777
+player 23fitness 214447
+player 24fitness 183360
+player 25fitness 492179
+player 26fitness 331890
+player 27fitness 309777
+player 28fitness 214447
+player 29fitness 183360
+player 30fitness 492179
+player 31fitness 331890
+player 32fitness 309777
+player 33fitness 214447
+player 34fitness 183360
+player 35fitness 492179
+player 36fitness 331890
+player 37fitness 309777
+player 38fitness 214447
+player 39fitness 183360
+player 40fitness 492179
+player 41fitness 331890
+player 42fitness 309777
+player 43fitness 214447
+player 44fitness 183360
+player 45fitness 492179
+player 46fitness 331890
+player 47fitness 309777
+player 48fitness 214447
+player 49fitness 183360
+generation 2 top fitness 846134
+2.1548 0.6483 2.7595 0.4041 0.3602 2.435 1.0291 3.0836 0.9374 
+player 0fitness 846134
+player 1fitness 575926
+player 2fitness 530477
+player 3fitness 473070
+player 4fitness 373389
+player 5fitness 846134
+player 6fitness 575926
+player 7fitness 530477
+player 8fitness 473070
+player 9fitness 373389
+player 10fitness 846134
+player 11fitness 575926
+player 12fitness 530477
+player 13fitness 473070
+player 14fitness 373389
+player 15fitness 846134
+player 16fitness 575926
+player 17fitness 530477
+player 18fitness 473070
+player 19fitness 373389
+player 20fitness 846134
+player 21fitness 575926
+player 22fitness 530477
+player 23fitness 473070
+player 24fitness 373389
+player 25fitness 846134
+player 26fitness 575926
+player 27fitness 530477
+player 28fitness 473070
+player 29fitness 373389
+player 30fitness 846134
+player 31fitness 575926
+player 32fitness 530477
+player 33fitness 473070
+player 34fitness 373389
+player 35fitness 846134
+player 36fitness 575926
+player 37fitness 530477
+player 38fitness 473070
+player 39fitness 373389
+player 40fitness 846134
+player 41fitness 575926
+player 42fitness 530477
+player 43fitness 473070
+player 44fitness 373389
+player 45fitness 846134
+player 46fitness 575926
+player 47fitness 530477
+player 48fitness 473070
+player 49fitness 373389
+Starting with  50 players
+Starting with  50 players
+Starting with  50 players
+Starting with  50 players
+Starting with  50 players
+Starting with  50 players
+Starting with  50 players
+Starting with  50 players
+Starting with  50 players
+Starting with  50 players
+Starting with  50 players
+Starting with  50 players
