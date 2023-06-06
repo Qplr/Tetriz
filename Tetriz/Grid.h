@@ -223,6 +223,7 @@ public:
 		PILLARS,
 		LINES_BURN,
 		BUMPINESS,
+		SLOPE_PENALTY,
 		BLOCKS_ABOVE_HOLES,
 		COL_10_BLOCKS,
 		CRITICAL_STACK_HEIGHT_PERCENT,
@@ -230,13 +231,12 @@ public:
 		TETRIS_READY,
 		ATTRIBUTES
 	};
-	//vector<float> attributes = { 31.5689, 0.471205, 12.3467, 4.83297, 24.5056, 12.8792, 43.8853, 996.243, 8.88312 };
-	vector<float> attributes = { 2.1548, 0.6483, 2.7595, 0.4041, 0.3602, 2.435, 50, 3.0836, 0.9374 };
+	vector<float> attributes = { 31.808, 0.931605, 11.7369, 3.84827, 1.0, 23.5348, 13.1174, 44.6274, 100, 9.85492 };
 	
 	const static ULL MAX_ATTRIBUTE_VAL = 100;
 
 	ULL
-		SCORE = 0, burns = 0;
+		LINES = 0, burns = 0;
 	float 
 		TTR = 0;
 	const static int cutOffPercent = 10;
@@ -253,34 +253,34 @@ public:
 		attributes[TETRIS] = tetris;
 		attributes[TETRIS_READY] = tetrisReady;
 	}
-	float cost(LL holes, LL pillars, LL linesCleared, LL bumpiness, LL blocksAboveHoles, LL colomn_10_blocks, LL maxStackHeight, int tetrisReady, int tetrisFound)
+	float cost(float holes, float pillars, float linesCleared, float bumpiness, float blocksAboveHoles, float colomn_10_blocks, float maxStackHeight, float tetrisReady, int tetrisFound)
 	{
 		return
 		attributes[HOLES] * holes
 		+ attributes[PILLARS] * pillars
-		+ attributes[LINES_BURN] * linesCleared * (!tetrisFound && !tetrisReady) * ((attributes[CRITICAL_STACK_HEIGHT_PERCENT] / 100.0 * HEIGHT < maxStackHeight) ? -1 : 1)
+		+ attributes[LINES_BURN] * linesCleared * (tetrisReady < 0.001 && !tetrisFound) * ((attributes[CRITICAL_STACK_HEIGHT_PERCENT] / 100.0 * HEIGHT < maxStackHeight) ? -1 : 1)
 		+ attributes[BUMPINESS] * bumpiness
 		+ attributes[BLOCKS_ABOVE_HOLES] * blocksAboveHoles
 		+ attributes[COL_10_BLOCKS] * colomn_10_blocks * (holes == 0)
 		- attributes[TETRIS] * tetrisFound
-		- attributes[TETRIS_READY] * (tetrisReady > 0)
+		- attributes[TETRIS_READY] * tetrisReady
 		;
 	}
 	static float fitness(ULL score, float ttr)
 	{
-		return score * ttr;//score / lines * ttr?
+		return score * ttr * (ttr / 0.7);
 	}
 	static void resetPlayersStats(vector<Player>& players)
 	{
 		for (int player = 0; player < players.size(); player++)
 		{
-			players[player].SCORE = 0;
+			players[player].LINES = 0;
 			players[player].TTR = 0;
 		}
 	}
 	float fitness()
 	{
-		return fitness(SCORE, TTR);
+		return fitness(LINES, TTR);
 	}
 	static float generateRandomFloat()
 	{
@@ -293,11 +293,14 @@ public:
 		{
 			for (int attribute = 0; attribute < ATTRIBUTES; attribute++)
 			{
-				players[player].attributes[attribute] += generateRandomFloat();
-				if (players[player].attributes[attribute] < 0)
-					players[player].attributes[attribute] = 0;
-				if (players[player].attributes[attribute] > MAX_ATTRIBUTE_VAL)
-					players[player].attributes[attribute] = MAX_ATTRIBUTE_VAL;
+				if (generateRandomFloat() > 0)
+				{
+					players[player].attributes[attribute] += generateRandomFloat();
+					if (players[player].attributes[attribute] < 0)
+						players[player].attributes[attribute] = 0;
+					if (players[player].attributes[attribute] > MAX_ATTRIBUTE_VAL)
+						players[player].attributes[attribute] = MAX_ATTRIBUTE_VAL;
+				}
 			}
 		}
 	}
@@ -320,18 +323,16 @@ public:
 			swap(players[i], players[maxIndex]);
 		}
 		int parents = players.size() * cutOffPercent / 100;
-		//auto newPlayers = players;
+		auto newPlayers = players;
 		for (int i = parents; i < players.size(); i++)
-			players[i] = players[i % parents];//newPlayers[i].mergePlayers(players[i % parents], players[(i + 1) % parents]);
-		//players = newPlayers;
+			/*players[i] = players[i % parents];*/newPlayers[i].mergePlayers(players[i % parents], players[(i + 1) % parents]);
+		players = newPlayers;
 	}
 	static void randomizePlayers(vector<Player>& players)
 	{
 		for (int i = 0; i < players.size(); i++)
-		{
-			for (int j = 0; j < Player::ATTRIBUTES; j++)
-				players[i].attributes[j] = (rand() % 1000000) / 10000.0;
-		}
+			players[i] = Player();
+		adjustAttributes(players);
 	}
 	void mergePlayers(Player& one, Player& two)
 	{
@@ -617,7 +618,7 @@ public:
 			square.setOutlineColor(Color(!current.color * colors[colorScheme][2]));
 			window.draw(square);
 		}
-		for (int i = 0; i < TOTAL_AI_TETROMINOS_OBJECTS; i++)
+		/*for (int i = 0; i < TOTAL_AI_TETROMINOS_OBJECTS; i++)
 		{
 			for (int j = 0; j < TetroNumber; j++)
 			{
@@ -635,7 +636,7 @@ public:
 				window.draw(square);
 				square.setOutlineColor(Color::Black);
 			}
-		}
+		}*/
 		for (int i = 0; i < 4; i++)	// next
 		{
 			square.setFillColor(Color(colors[colorScheme][next.color]));
@@ -773,20 +774,22 @@ public:
 				//if(!timelapse)
 					print();
 			}
+			if (lines > 3000)
+				endGame();
 		}
 		float ttr = getTTR();
 		
 		if (player->fitness() > 0)
 		{
-			if (player->fitness() > Player::fitness(score, ttr))
+			if (player->fitness() > Player::fitness(lines, ttr))
 			{
-				player->SCORE = score;
+				player->LINES = lines;
 				player->TTR = ttr;
 			}
 		}
 		else
 		{
-			player->SCORE = score;
+			player->LINES = lines;
 			player->TTR = ttr;
 		}
 	}
@@ -804,7 +807,7 @@ public:
 		Tetromino& aiCurrent = first, & aiNext = second;
 
 		int temp, clearedCurrent = 0, clearedNext = 0;
-		int MAX_STACK_HEIGHT = -1, MIN_STACK_HEIGHT = HEIGHT, HOLES = 0, PILLARS = 0, CLEARED_LINES, BUMPINESS = 0, BLOCKS_ABOVE_HOLES = 0, COL_10_BLOCKS = 0, TETRIS_FOUND = 0, TETRIS_READY = 0;
+		float MAX_STACK_HEIGHT = -1, MIN_STACK_HEIGHT = HEIGHT, HOLES = 0, PILLARS = 0, CLEARED_LINES, BUMPINESS = 0, BLOCKS_ABOVE_HOLES = 0, COL_10_BLOCKS = 0, TETRIS_FOUND = 0, TETRIS_READY = 0;
 		vector<int> colomns(WIDTH);
 		vector<int> clearedLines;
 		int x, y;
@@ -845,8 +848,11 @@ public:
 			if (colomns[x] < MIN_STACK_HEIGHT)
 				MIN_STACK_HEIGHT = colomns[x];
 		}
-		for (x = 1; x < WIDTH - 1; x++)//(COL_10_BLOCKS == 0)
-			BUMPINESS += abs(colomns[x] - colomns[x - 1]);
+		for (x = 1; x < WIDTH - (COL_10_BLOCKS == 0); x++)
+			if (colomns[x] - colomns[x - 1] > 0)
+				BUMPINESS += player->SLOPE_PENALTY * (colomns[x] - colomns[x - 1]);
+			else
+				BUMPINESS += colomns[x - 1] - colomns[x];
 
 		for (x = WIDTH - 1; x >= 0; x--)
 		{
@@ -858,24 +864,24 @@ public:
 		}
 
 		x = 0, y = MIN_STACK_HEIGHT;
-		while (y < HEIGHT && isSolid(x, y) ^ (x == temp))
+		while (y <= MAX_STACK_HEIGHT)
 		{
-			x++;
-			if (x == WIDTH)
-			{
-				x = 0;
-				y++;
-			}
+			if(!contains(clearedLines, y))
+				for (x = 0; x < WIDTH; x++)
+					TETRIS_READY += isSolid(x, y) ^ (x == temp);
+			y++;
+			if (TETRIS_READY < WIDTH * (y - MIN_STACK_HEIGHT))
+				break;
 		}
-		TETRIS_READY = (y - MIN_STACK_HEIGHT) / TetroNumber;
+		TETRIS_READY /= TetroNumber * WIDTH;
 		
 		if (CLEARED_LINES >= TetroNumber && (aiCurrent.type == I || aiNext.type == I))
 		{
 			for (int i = 0; i < clearedLines.size(); i++)
 			{
-				if (aiCurrent.containsY(clearedLines[i]))
+				if (aiCurrent.containsY(clearedLines[i]) && !aiNext.containsY(clearedLines[i]))
 					clearedCurrent++;
-				if (aiNext.containsY(clearedLines[i]))
+				if (aiNext.containsY(clearedLines[i]) /*&& !aiCurrent.containsY(clearedLines[i])*/)
 					clearedNext++;
 			}
 			if (clearedCurrent == TetroNumber)
@@ -887,6 +893,11 @@ public:
 				TETRIS_FOUND++;
 			}
 		}
+		/*cout << "cc" << clearedCurrent << endl;
+		cout << "cn" << clearedNext << endl;
+		cout << "tr" << TETRIS_READY << endl;
+		cout << "tf" << TETRIS_FOUND << endl;*/
+
 		for (int x = 0; x < WIDTH - 1; x++)//(COL_10_BLOCKS == 0)
 		{
 			temp = min(((x == 0) ? HEIGHT : colomns[x - 1]) - colomns[x],
