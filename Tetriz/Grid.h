@@ -258,17 +258,17 @@ public:
 		return
 		attributes[HOLES] * holes
 		+ attributes[PILLARS] * pillars
-		+ attributes[LINES_BURN] * linesCleared * (tetrisReady < 0.001 && !tetrisFound) * ((attributes[CRITICAL_STACK_HEIGHT_PERCENT] / 100.0 * HEIGHT < maxStackHeight) ? -1 : 1)
+		+ attributes[LINES_BURN] * linesCleared * (!int(tetrisReady) && !tetrisFound) * ((attributes[CRITICAL_STACK_HEIGHT_PERCENT] / 100.0 * HEIGHT < maxStackHeight) ? -1 : 1)
 		+ attributes[BUMPINESS] * bumpiness
 		+ attributes[BLOCKS_ABOVE_HOLES] * blocksAboveHoles
 		+ attributes[COL_10_BLOCKS] * colomn_10_blocks * (holes == 0)
 		- attributes[TETRIS] * tetrisFound
-		- attributes[TETRIS_READY] * tetrisReady
+		- attributes[TETRIS_READY] * tetrisReady * (TETRIS_READY > 1)
 		;
 	}
-	static float fitness(ULL score, float ttr)
+	static float fitness(ULL lines, float ttr)
 	{
-		return score * ttr * (ttr / 0.7);
+		return lines * pow(ttr, 3);
 	}
 	static void resetPlayersStats(vector<Player>& players)
 	{
@@ -577,7 +577,7 @@ public:
 				player->burns += newLines;
 			else
 				player->burns = 0;
-			if (player->burns > 200)
+			if (player->burns > 100)
 				endGame();
 			adjustDelay();
 		}
@@ -774,7 +774,7 @@ public:
 				//if(!timelapse)
 					print();
 			}
-			if (lines > 3000)
+			if (lines > 5000)
 				endGame();
 		}
 		float ttr = getTTR();

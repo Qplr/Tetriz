@@ -31,6 +31,7 @@ int main()
 				grid.play(&players[player], 29);
 			}
 			cout << "player " << player << " finished. Fitness " << players[player].fitness() << " ttr " << players[player].TTR << endl;
+			cout << "lines " << players[player].LINES << " ttr " << players[player].TTR << endl;
 			for (int i = 0; i < Player::ATTRIBUTES; i++)
 				cout << players[player].attributes[i] << ' ';
 			cout << endl;
